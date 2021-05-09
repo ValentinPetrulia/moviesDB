@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20C69" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Actor" representedClassName="Actor" syncable="YES" codeGenerationType="class">
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="name" attributeType="String"/>
+    </entity>
+    <entity name="FavouriteMovie" representedClassName="FavouriteMovie" syncable="YES" codeGenerationType="class">
+        <attribute name="actors" optional="YES" attributeType="Transformable"/>
+        <attribute name="backdropURL" attributeType="URI"/>
+        <attribute name="durationText" attributeType="String"/>
+        <attribute name="genreText" attributeType="String"/>
+        <attribute name="id" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="overview" attributeType="String"/>
+        <attribute name="rating" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="scoreText" attributeType="String"/>
+        <attribute name="title" attributeType="String"/>
+        <attribute name="yearText" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="FavouriteMovie" positionX="-63" positionY="-18" width="128" height="193"/>
+        <element name="Actor" positionX="-541.2655029296875" positionY="22.65304565429688" width="128" height="73"/>
+    </elements>
+</model>
